@@ -1,0 +1,413 @@
+body {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    position: relative;
+    /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    background: url("../images/inner_bg.png") 0 0 repeat #efefef;
+    ::-webkit-scrollbar {
+        width: 10px;
+        /* for vertical scrollbars */
+        height: 12px;
+        /* for horizontal scrollbars */
+    }
+    ::-webkit-scrollbar-track {
+        background: rgba(0, 0, 0, 0.1);
+        margin: 10px 0;
+        border-radius: 6px;
+    }
+    ::-webkit-scrollbar-thumb {
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 6px;
+    }
+}
+
+.navbar-fixed-top {
+    .nav {
+        padding: 15px 0;
+    }
+    .navbar-brand {
+        padding: 0 15px;
+    }
+    .navbar-nav {
+        margin-left: 30px;
+        li{
+        	margin-right: 15px;
+        	&.active{
+		        a{
+	        		box-shadow: 1px 1px 43px -1px rgba(255, 255, 255, 0.26);
+	        		border-radius:7px;
+	        		background: transparent;
+		        }
+	        	
+	        }
+        }
+
+    }
+}
+
+.container {
+    &.main-view {
+        // background: rgba(255, 255, 255, 0.57);
+        // box-shadow: 0px 5px 14px 2px rgba(0, 0, 0, 0.2);
+        color: black;
+        border-radius: 6px;
+        clear: both;
+        padding: 15px;
+        margin: 0px auto;
+        position: relative;
+        overflow: auto;
+        height: calc(100vh - 130px);
+    }
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.card {
+    margin: 0 30px 30px 0;
+    width: 250px;
+    display: block;
+    float: left;
+    position: relative;
+    background: #fff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+    -o-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+}
+
+.card .thumb {
+    display: block;
+    position: relative;
+}
+
+.card .thumb img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 1;
+    border-bottom: 1px solid #e6e6e6;
+    -webkit-border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0;
+}
+
+.card .thumb .overlay {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    cursor: pointer;
+    text-align: center;
+    background: #000;
+    filter: alpha(opacity=65);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=65)";
+    background: rgba(0, 0, 0, 0.65);
+    -webkit-border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0;
+}
+
+.card .thumb .overlay .fa {
+    position: relative;
+    top: 38%;
+    font-size: 32px;
+    text-align: center;
+    color: #fff;
+}
+
+.card .thumb:hover .overlay {
+    display: block;
+}
+
+.card .card-body {
+    padding: 10px 15px 15px;
+}
+
+.card .card-body h2 {
+    margin: 0 0 3px;
+    height: 55px;
+    overflow: hidden;
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+.card .card-body h2 a {
+    font-weight: 500;
+}
+
+.card .card-body p {
+    margin: 0;
+    font-size: 13px;
+}
+
+.card .card-body .post-meta {
+    margin: 0 0 10px;
+    padding: 5px 0 10px;
+    font-size: 13px;
+    border-bottom: 1px solid #e6e6e6;
+    color: #898989;
+}
+
+.card .card-body .post-meta li {
+    margin-right: 15px;
+}
+
+.card .card-footer {
+    padding: 8px 15px;
+    background: #f6f6f6;
+    border-top: 1px solid #e6e6e6;
+    text-shadow: 0 1px 0 #fff;
+    -webkit-border-radius: 0 0 4px 4px;
+    -moz-border-radius: 0 0 4px 4px;
+    border-radius: 0 0 4px 4px;
+}
+
+.page {
+    margin: 0 auto;
+}
+
+.page-header {
+    margin: -50px -50px 35px !important;
+    padding: 0 0 35px;
+    height: 300px;
+    overflow-y: hidden;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.page-header img {
+    width: 100%;
+    height: auto;
+    -webkit-border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0;
+}
+
+.page-header h1 {
+    margin: 30px 50px 10px;
+}
+
+.page-header .lead {
+    margin: 0 50px;
+    color: #9a9a9a;
+}
+
+.page article {
+    margin: 0 0 30px;
+    padding: 50px 50px 30px;
+    position: relative;
+    background: #fff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+    -o-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+}
+
+.post-content img {
+    width: 100%;
+    height: auto;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.post-content .caption {
+    padding: 5px 0;
+    display: block;
+    font-size: 13px;
+    line-height: 1.6;
+    color: #787878;
+}
+
+.post-content ul {
+    margin-left: -40px;
+    margin-bottom: 20px;
+}
+
+.post-content ul li {
+    margin: 5px 0;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.post-content ul ul {
+    margin-left: 40px;
+}
+
+.post-meta {
+    margin: 0 0 30px;
+    font-size: 13px;
+}
+
+.post-meta li {
+    margin: 5px 0 15px;
+    padding: 0;
+    color: #787878;
+}
+
+.list-inline.post-meta li {
+    margin: 5px 20px 5px 0;
+}
+
+.post-meta li .fa {
+    margin-right: 5px;
+}
+
+.page article ul li {
+    font-size: 15px;
+}
+
+.page article hr {
+    margin: 30px 0;
+}
+
+.card .card-footer .list-inline {
+    margin: 0;
+}
+
+.card .card-footer .list-inline li {
+    font-size: 13px;
+    color: #787878;
+}
+
+.card .card-footer .list-inline li a {
+    color: #787878;
+}
+
+.card .card-footer .list-inline li a:hover {
+    color: #1abc9c;
+}
+
+.card .card-footer .list-inline li .fa {
+    margin-right: 5px;
+}
+
+.portfolio-wrapper {
+    overflow: visible !important;
+}
+
+.portfolio .card h2 {
+    margin-bottom: 10px;
+    height: 65px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+
+/**** Isotope Filtering ****/
+
+.isotope-item {
+    z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+    pointer-events: none;
+    z-index: 1;
+}
+
+
+/**** Isotope CSS3 transitions ****/
+
+.isotope,
+.isotope .isotope-item {
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -ms-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
+
+.isotope {
+    -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+    -ms-transition-property: height, width;
+    -o-transition-property: height, width;
+    transition-property: height, width;
+}
+
+.isotope .isotope-item {
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform, opacity;
+    -ms-transition-property: -ms-transform, opacity;
+    -o-transition-property: -o-transform, opacity;
+    transition-property: transform, opacity;
+}
+
+
+/**** disabling Isotope CSS3 transitions ****/
+
+.isotope.no-transition,
+.isotope.no-transition .isotope-item,
+.isotope .isotope-item.no-transition {
+    -webkit-transition-duration: 0s;
+    -moz-transition-duration: 0s;
+    -ms-transition-duration: 0s;
+    -o-transition-duration: 0s;
+    transition-duration: 0s;
+}
+
+
+/**** Isotope filtering ****/
+
+.isotope-item {
+    z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+    pointer-events: none;
+    z-index: 1;
+}
+
+// HOME
+@media(min-width:768px) {
+    .navbar-fixed-top .navbar-brand {
+        padding: 15px 0;
+    }
+}
+
+@media(max-width:768px) {
+    body {
+        padding-top: 50px;
+        padding-bottom: 60px;
+        position: relative;
+        /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+        background: url("../images/inner_bg.png") 0 0 repeat #efefef;
+        ::-webkit-scrollbar {
+            width: 12px;
+            /* for vertical scrollbars */
+            height: 12px;
+            /* for horizontal scrollbars */
+        }
+        ::-webkit-scrollbar-track {
+            background: rgba(0, 0, 0, 0.1);
+            margin: 10px 0;
+            border-radius: 6px;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 6px;
+        }
+        .container {
+            &.main-view {
+                margin-right: 10px;
+                height: calc(100vh - 110px);
+            }
+            .navbar-brand {
+                padding: 0;
+                height: 20px;
+            }
+        }
+    }
+}

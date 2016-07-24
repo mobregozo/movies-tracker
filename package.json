@@ -1,0 +1,24 @@
+{
+  "name": "movie-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Manuel Obregozo - obre41@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-connect": "^2.2.0",
+    "gulp-sass": "^1.0.1"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "gulp-connect": "^4.2.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-sass": "^2.3.2",
+    "gzippo": "^0.2.0",
+    "morgan": "^1.7.0"
+  }
+}
