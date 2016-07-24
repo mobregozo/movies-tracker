@@ -47,8 +47,31 @@ angular.module('MovieTracker', [
 
     })
 
+    //HOME
+    .state('app.about', {
+        url: 'about',
+        views: {
+            'mainView': {
+                templateUrl: 'views/about/about.html'
+            }
+        },
+        menu: 'About'
+
+    })
+
+    .state('app.movies', {
+        url: 'movies/',
+        views: {
+            'mainView': {
+                templateUrl: 'views/movie/movie-list.html',
+                controller: 'MovieListProfileCtrl'
+            }
+        },
+        menu: 'Movies'
+    })
+
     .state('app.movie', {
-        url: 'movie/:movieId',
+        url: 'movies/:movieId',
         views: {
             'mainView': {
                 templateUrl: 'views/movie/movie-profile.html',
@@ -56,7 +79,6 @@ angular.module('MovieTracker', [
             }
         },
         menu: 'Movies'
-
     })
     
     //Default Route

@@ -2,19 +2,13 @@
 
 angular.module('MovieTracker.services')
 
-.factory('clientService', function($http) {
+.factory('movieService', function($http) {
     return {
-        getClients: function(pageN, pageSize) {
-            return $http.get('api/customers' + '?page=' + pageN + '&size=' + pageSize);
+        getMovies: function() {
+            return $http.get('data/movies.json');
         },
-        getClientsParams: function(pageN, pageSize, text) {
-            return $http.get('api/customers', {
-                params: {
-                    page: pageN,
-                    size: pageSize,
-                    search_text: text
-                }
-            });
+        getMovieProfile: function(link) {
+            return $http.get('http://api.rottentomatoes.com/api/public/v1.0/movies/'+link+'.json?apikey=9htuhtcb4ymusd73d4z6jxcj');
         }
     };
 })

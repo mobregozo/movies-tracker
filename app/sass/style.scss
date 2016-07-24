@@ -86,6 +86,8 @@ body {
 .card .thumb {
     display: block;
     position: relative;
+    height: 300px;
+    overflow: hidden;
 }
 
 .card .thumb img {
@@ -132,6 +134,7 @@ body {
 
 .card .card-body {
     padding: 10px 15px 15px;
+    height: 281px;
 }
 
 .card .card-body h2 {
@@ -180,9 +183,11 @@ body {
 .page-header {
     margin: -50px -50px 35px !important;
     padding: 0 0 35px;
-    height: 300px;
     overflow-y: hidden;
     border-bottom: 1px solid #e6e6e6;
+    &.movie{
+        height: 300px;
+    }
 }
 
 .page-header img {

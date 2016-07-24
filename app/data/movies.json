@@ -1,0 +1,710 @@
+{  
+   "total":11,
+   "movies":[  
+      {  
+         "id":"771442750",
+         "title":"Batman: The Killing Joke",
+         "year":2016,
+         "mpaa_rating":"R",
+         "runtime":76,
+         "release_dates":{  
+            "theater":"2016-07-25",
+            "dvd":"2016-08-02"
+         },
+         "ratings":{  
+            "critics_score":-1,
+            "audience_score":96
+         },
+         "synopsis":"Fathom Events, Warner Bros. and DC Comics invite you to a premiere event when Batman: The Killing Joke comes to select cinemas nationwide for a special one-night event including an introduction from Mark Hamill plus two never-before-seen featurettes. Based on the acclaimed DC Comics graphic novel, take a journey into the dark psyche of the Clown Prince of Crime. Now escaped from Arkham Asylum, The Joker sets out to prove that one bad day can make anyone just as insane as he is. Featuring the return of Kevin Conroy as Batman, Mark Hamill as The Joker and Tara Strong as Batgirl, witness the birth of a super villain, the fortitude of a hero and the punchline that will leave you speechless!",
+         "posters":{  
+            "thumbnail":"https://resizing.flixster.com/ZvYulMssdlkhiq2LsTXUIlzTREg=/54x76/v1.bTsxMTg5NTQ1ODtqOzE3MDM1OzIwNDg7Mzk4OzU2Mg",
+            "profile":"https://resizing.flixster.com/ZvYulMssdlkhiq2LsTXUIlzTREg=/54x76/v1.bTsxMTg5NTQ1ODtqOzE3MDM1OzIwNDg7Mzk4OzU2Mg",
+            "detailed":"https://resizing.flixster.com/ZvYulMssdlkhiq2LsTXUIlzTREg=/54x76/v1.bTsxMTg5NTQ1ODtqOzE3MDM1OzIwNDg7Mzk4OzU2Mg",
+            "original":"https://resizing.flixster.com/ZvYulMssdlkhiq2LsTXUIlzTREg=/54x76/v1.bTsxMTg5NTQ1ODtqOzE3MDM1OzIwNDg7Mzk4OzU2Mg"
+         },
+         "abridged_cast":[  
+            {  
+               "name":"Kevin Conroy",
+               "id":"162666466",
+               "characters":[  
+                  "Bruce Wayne/Batman"
+               ]
+            },
+            {  
+               "name":"Mark Hamill",
+               "id":"162665747",
+               "characters":[  
+                  "The Joker"
+               ]
+            },
+            {  
+               "name":"Ray Wise",
+               "id":"162689781",
+               "characters":[  
+                  "Commissioner James Gordon"
+               ]
+            },
+            {  
+               "name":"Tara Strong",
+               "id":"162656146",
+               "characters":[  
+                  "Batgirl/Barbara Gordon"
+               ]
+            }
+         ],
+         "links":{  
+            "self":"https://api.rottentomatoes.com/api/public/v1.0/movies/771442750.json",
+            "alternate":"https://www.rottentomatoes.com/m/batman_the_killing_joke/",
+            "cast":"https://api.rottentomatoes.com/api/public/v1.0/movies/771442750/cast.json",
+            "reviews":"https://api.rottentomatoes.com/api/public/v1.0/movies/771442750/reviews.json",
+            "similar":"https://api.rottentomatoes.com/api/public/v1.0/movies/771442750/similar.json"
+         }
+      },
+      {  
+         "id":"771438155",
+         "title":"Nerve",
+         "year":2016,
+         "mpaa_rating":"PG-13",
+         "runtime":96,
+         "release_dates":{  
+            "theater":"2016-07-27"
+         },
+         "ratings":{  
+            "critics_score":-1,
+            "audience_score":95
+         },
+         "synopsis":"Industrious high school senior, Vee Delmonico, has had it with living life on the sidelines. When pressured by friends to join the popular online game Nerve, Vee decides to sign up for just one dare in what seems like harmless fun. But as she finds herself caught up in the thrill of the adrenaline-fueled competition partnered with a mysterious stranger, the game begins to take a sinister turn with increasingly dangerous acts, leading her into a high stakes finale that will determine her entire future.",
+         "posters":{  
+            "thumbnail":"https://resizing.flixster.com/jWv_GS91HWlcycxxW393OVjacOo=/53x81/v1.bTsxMjA2MTc4NDtqOzE3MDg4OzIwNDg7MzYwMDs1NTUw",
+            "profile":"https://resizing.flixster.com/jWv_GS91HWlcycxxW393OVjacOo=/53x81/v1.bTsxMjA2MTc4NDtqOzE3MDg4OzIwNDg7MzYwMDs1NTUw",
+            "detailed":"https://resizing.flixster.com/jWv_GS91HWlcycxxW393OVjacOo=/53x81/v1.bTsxMjA2MTc4NDtqOzE3MDg4OzIwNDg7MzYwMDs1NTUw",
+            "original":"https://resizing.flixster.com/jWv_GS91HWlcycxxW393OVjacOo=/53x81/v1.bTsxMjA2MTc4NDtqOzE3MDg4OzIwNDg7MzYwMDs1NTUw"
+         },
+         "abridged_cast":[  
+            {  
+               "name":"Emma Roberts",
+               "id":"326298386",
+               "characters":[  
+                  "Vee"
+               ]
+            },
+            {  
+               "name":"Dave Franco",
+               "id":"770703179",
+               "characters":[  
+                  "Ian"
+               ]
+            },
+            {  
+               "name":"Emily Meade",
+               "id":"770920518",
+               "characters":[  
+                  "Sydney"
+               ]
+            },
+            {  
+               "name":"Miles Heizer",
+               "id":"770677339",
+               "characters":[  
+                  "Tommy"
+               ]
+            },
+            {  
+               "name":"Juliette Lewis",
+               "id":"162654115",
+               "characters":[  
+                  "Nancy"
+               ]
+            }
+         ],
+         "links":{  
+            "self":"https://api.rottentomatoes.com/api/public/v1.0/movies/771438155.json",
+            "alternate":"https://www.rottentomatoes.com/m/nerve_2016/",
+            "cast":"https://api.rottentomatoes.com/api/public/v1.0/movies/771438155/cast.json",
+            "reviews":"https://api.rottentomatoes.com/api/public/v1.0/movies/771438155/reviews.json",
+            "similar":"https://api.rottentomatoes.com/api/public/v1.0/movies/771438155/similar.json"
+         }
+      },
+      {  
+         "id":"771398975",
+         "title":"Jason Bourne",
+         "year":2016,
+         "mpaa_rating":"PG-13",
+         "runtime":123,
+         "release_dates":{  
+            "theater":"2016-07-29"
+         },
+         "ratings":{  
+            "critics_score":-1,
+            "audience_score":99
+         },
+         "synopsis":"Years after the events of The Bourne Ultimatum, former CIA assassin Jason Bourne (Matt Damon) resurfaces just as his former employers are implementing a new program aimed at hunting him down. Now fully recovered from his amnesia, Bourne teams up with Nicky Parsons (Julia Stiles) to uncover the ultimate truth about his past and his family while simultaneously exacting revenge and eluding capture by the government forces hot on his trail. Paul Greengrass returns to helm this sequel, with Tommy Lee Jones, Alicia Vikander, and Vincent Cassel co-starring.",
+         "posters":{  
+            "thumbnail":"https://resizing.flixster.com/u-GC6uZyC8bpBUE553U4xNt6Ph0=/51x81/v1.bTsxMTU2MDMzODtqOzE3MTE2OzIwNDg7MzE1ODs1MDAw",
+            "profile":"https://resizing.flixster.com/u-GC6uZyC8bpBUE553U4xNt6Ph0=/51x81/v1.bTsxMTU2MDMzODtqOzE3MTE2OzIwNDg7MzE1ODs1MDAw",
+            "detailed":"https://resizing.flixster.com/u-GC6uZyC8bpBUE553U4xNt6Ph0=/51x81/v1.bTsxMTU2MDMzODtqOzE3MTE2OzIwNDg7MzE1ODs1MDAw",
+            "original":"https://resizing.flixster.com/u-GC6uZyC8bpBUE553U4xNt6Ph0=/51x81/v1.bTsxMTU2MDMzODtqOzE3MTE2OzIwNDg7MzE1ODs1MDAw"
+         },
+         "abridged_cast":[  
+            {  
+               "name":"Matt Damon",
+               "id":"162653499",
+               "characters":[  
+                  "Jason Bourne"
+               ]
+            },
+            {  
+               "name":"Tommy Lee Jones",
+               "id":"162666788",
+               "characters":[  
+                  "CIA Director Robert Dewey"
+               ]
+            },
+            {  
+               "name":"Alicia Vikander",
+               "id":"771083890",
+               "characters":[  
+                  "Heather Lee"
+               ]
+            },
+            {  
+               "name":"Vincent Cassel",
+               "id":"162655150",
+               "characters":[  
+                  "Asset"
+               ]
+            },
+            {  
+               "name":"Julia Stiles",
+               "id":"162660056",
+               "characters":[  
+                  "Nicky Parsons"
+               ]
+            }
+         ],
+         "links":{  
+            "self":"https://api.rottentomatoes.com/api/public/v1.0/movies/771398975.json",
+            "alternate":"https://www.rottentomatoes.com/m/jason_bourne/",
+            "cast":"https://api.rottentomatoes.com/api/public/v1.0/movies/771398975/cast.json",
+            "reviews":"https://api.rottentomatoes.com/api/public/v1.0/movies/771398975/reviews.json",
+            "similar":"https://api.rottentomatoes.com/api/public/v1.0/movies/771398975/similar.json"
+         }
+      },
+      {  
+         "id":"771436389",
+         "title":"Bad Moms",
+         "year":2016,
+         "mpaa_rating":"R",
+         "runtime":101,
+         "release_dates":{  
+            "theater":"2016-07-29"
+         },
+         "ratings":{  
+            "critics_score":-1,
+            "audience_score":96
+         },
+         "synopsis":"In this new comedy from the grateful husbands and devoted fathers who wrote The Hangover, Amy has a seemingly perfect life--a great marriage, over-achieving kids, beautiful home and a career. However she's over-worked, over-committed and exhausted to the point that she's about to snap. Fed up, she joins forces with two other over-stressed moms on a quest to liberate themselves from conventional responsibilities - going on a wild, un-mom-like binge of long overdue freedom, fun and self-indulgence - putting them on a collision course with PTA Queen Bee Gwendolyn and her clique of devoted perfect moms.",
+         "posters":{  
+            "thumbnail":"https://resizing.flixster.com/3GmPUjXGsWDqsNjmFAEG0ZrmffI=/54x80/v1.bTsxMjEyMjU5NTtqOzE3MDYwOzIwNDg7NTQ3OzgxMA",
+            "profile":"https://resizing.flixster.com/3GmPUjXGsWDqsNjmFAEG0ZrmffI=/54x80/v1.bTsxMjEyMjU5NTtqOzE3MDYwOzIwNDg7NTQ3OzgxMA",
+            "detailed":"https://resizing.flixster.com/3GmPUjXGsWDqsNjmFAEG0ZrmffI=/54x80/v1.bTsxMjEyMjU5NTtqOzE3MDYwOzIwNDg7NTQ3OzgxMA",
+            "original":"https://resizing.flixster.com/3GmPUjXGsWDqsNjmFAEG0ZrmffI=/54x80/v1.bTsxMjEyMjU5NTtqOzE3MDYwOzIwNDg7NTQ3OzgxMA"
+         },
+         "abridged_cast":[  
+            {  
+               "name":"Mila Kunis",
+               "id":"364629418",
+               "characters":[  
+                  "Amy Mitchell"
+               ]
+            },
+            {  
+               "name":"Kristen Bell",
+               "id":"326395677",
+               "characters":[  
+                  "Kiki"
+               ]
+            },
+            {  
+               "name":"Kathryn Hahn",
+               "id":"162652456",
+               "characters":[  
+                  "Carla Dunkler"
+               ]
+            },
+            {  
+               "name":"Christina Applegate",
+               "id":"162663389",
+               "characters":[  
+                  "Gwendolyn James"
+               ]
+            },
+            {  
+               "name":"Emjay Anthony",
+               "id":"771065531",
+               "characters":[  
+                  "Dylan Mitchell"
+               ]
+            }
+         ],
+         "links":{  
+            "self":"https://api.rottentomatoes.com/api/public/v1.0/movies/771436389.json",
+            "alternate":"https://www.rottentomatoes.com/m/bad_moms/",
+            "cast":"https://api.rottentomatoes.com/api/public/v1.0/movies/771436389/cast.json",
+            "reviews":"https://api.rottentomatoes.com/api/public/v1.0/movies/771436389/reviews.json",
+            "similar":"https://api.rottentomatoes.com/api/public/v1.0/movies/771436389/similar.json"
+         }
+      },
+      {  
+         "id":"771428882",
+         "title":"Into The Forest",
+         "year":2016,
+         "mpaa_rating":"R",
+         "runtime":101,
+         "release_dates":{  
+            "theater":"2016-07-29"
+         },
+         "ratings":{  
+            "critics_rating":"Fresh",
+            "critics_score":80,
+            "audience_score":93
+         },
+         "synopsis":"A worldwide power outage sends the globe toward the brink of apocalypse, forcing two sisters living in their isolated house in the Canadian woods to adapt to their new reality and fight for survival in this stirring end-of-the-world thriller.",
+         "posters":{  
+            "thumbnail":"https://resizing.flixster.com/x0MKPXuWdjYtRgtuoe8skgI4D2E=/54x80/v1.bTsxMjAyMTY0MjtqOzE3MDg2OzIwNDg7MTQyNTsyMTEx",
+            "profile":"https://resizing.flixster.com/x0MKPXuWdjYtRgtuoe8skgI4D2E=/54x80/v1.bTsxMjAyMTY0MjtqOzE3MDg2OzIwNDg7MTQyNTsyMTEx",
+            "detailed":"https://resizing.flixster.com/x0MKPXuWdjYtRgtuoe8skgI4D2E=/54x80/v1.bTsxMjAyMTY0MjtqOzE3MDg2OzIwNDg7MTQyNTsyMTEx",
+            "original":"https://resizing.flixster.com/x0MKPXuWdjYtRgtuoe8skgI4D2E=/54x80/v1.bTsxMjAyMTY0MjtqOzE3MDg2OzIwNDg7MTQyNTsyMTEx"
+         },
+         "abridged_cast":[  
+            {  
+               "name":"Ellen Page",
+               "id":"326392013",
+               "characters":[  
+                  "Nell"
+               ]
+            },
+            {  
+               "name":"Evan Rachel Wood",
+               "id":"162653277",
+               "characters":[  
+                  "Eva"
+               ]
+            },
+            {  
+               "name":"Max Minghella",
+               "id":"162652282",
+               "characters":[  
+                  "Eli"
+               ]
+            },
+            {  
+               "name":"Callum Keith Rennie",
+               "id":"326433850",
+               "characters":[  
+                  "Robert"
+               ]
+            },
+            {  
+               "name":"Michael Eklund",
+               "id":"770691369",
+               "characters":[  
+                  "Stan"
+               ]
+            }
+         ],
+         "links":{  
+            "self":"https://api.rottentomatoes.com/api/public/v1.0/movies/771428882.json",
+            "alternate":"https://www.rottentomatoes.com/m/into_the_forest/",
+            "cast":"https://api.rottentomatoes.com/api/public/v1.0/movies/771428882/cast.json",
+            "reviews":"https://api.rottentomatoes.com/api/public/v1.0/movies/771428882/reviews.json",
+            "similar":"https://api.rottentomatoes.com/api/public/v1.0/movies/771428882/similar.json"
+         }
+      },
+      {  
+         "id":"771435780",
+         "title":"Indignation",
+         "year":2016,
+         "mpaa_rating":"R",
+         "runtime":110,
+         "release_dates":{  
+            "theater":"2016-07-29"
+         },
+         "ratings":{  
+            "critics_rating":"Fresh",
+            "critics_score":82,
+            "audience_score":86
+         },
+         "synopsis":"Based on Philip Roth's late novel, Indignation takes place in 1951, as Marcus Messner (Logan Lerman), a brilliant working class Jewish boy from Newark, New Jersey, travels on scholarship to a small, conservative college in Ohio, thus exempting him from being drafted into the Korean War. But once there, Marcus's growing infatuation with his beautiful classmate Olivia Hutton (Sarah Gadon), and his clashes with the college's imposing Dean, Hawes Caudwell (Tracy Letts), put his and his family's best laid plans to the ultimate test.",
+         "posters":{  
+            "thumbnail":"https://resizing.flixster.com/FVRNNR4AlMYwIc0d9HKMpxDJIpg=/54x80/v1.bTsxMTk4OTYyNDtqOzE3MDYyOzIwNDg7NzE2OzEwNjE",
+            "profile":"https://resizing.flixster.com/FVRNNR4AlMYwIc0d9HKMpxDJIpg=/54x80/v1.bTsxMTk4OTYyNDtqOzE3MDYyOzIwNDg7NzE2OzEwNjE",
+            "detailed":"https://resizing.flixster.com/FVRNNR4AlMYwIc0d9HKMpxDJIpg=/54x80/v1.bTsxMTk4OTYyNDtqOzE3MDYyOzIwNDg7NzE2OzEwNjE",
+            "original":"https://resizing.flixster.com/FVRNNR4AlMYwIc0d9HKMpxDJIpg=/54x80/v1.bTsxMTk4OTYyNDtqOzE3MDYyOzIwNDg7NzE2OzEwNjE"
+         },
+         "abridged_cast":[  
+            {  
+               "name":"Logan Lerman",
+               "id":"341816559",
+               "characters":[  
+                  "Marcus"
+               ]
+            },
+            {  
+               "name":"Sarah Gadon",
+               "id":"241691073",
+               "characters":[  
+                  "Olivia Hutton"
+               ]
+            },
+            {  
+               "name":"Tracy Letts",
+               "id":"770901467",
+               "characters":[  
+                  "Dean Caudwell"
+               ]
+            },
+            {  
+               "name":"Linda Emond",
+               "id":"573371607",
+               "characters":[  
+                  "Esther"
+               ]
+            },
+            {  
+               "name":"Danny Burstein",
+               "id":"770693013"
+            }
+         ],
+         "links":{  
+            "self":"https://api.rottentomatoes.com/api/public/v1.0/movies/771435780.json",
+            "alternate":"https://www.rottentomatoes.com/m/indignation/",
+            "cast":"https://api.rottentomatoes.com/api/public/v1.0/movies/771435780/cast.json",
+            "reviews":"https://api.rottentomatoes.com/api/public/v1.0/movies/771435780/reviews.json",
+            "similar":"https://api.rottentomatoes.com/api/public/v1.0/movies/771435780/similar.json"
+         }
+      },
+      {  
+         "id":"771435795",
+         "title":"Equity",
+         "year":2016,
+         "mpaa_rating":"R",
+         "runtime":100,
+         "release_dates":{  
+            "theater":"2016-07-29",
+            "dvd":"2016-07-29"
+         },
+         "ratings":{  
+            "critics_rating":"Fresh",
+            "critics_score":71,
+            "audience_score":66
+         },
+         "synopsis":"A senior investment banker attempts to navigate the cutthroat world of Wall Street when a company's IPO threatens to derail the career she's built.",
+         "posters":{  
+            "thumbnail":"https://resizing.flixster.com/n-3vHEjjaZtI8znlRzh49UckPdw=/54x80/v1.bTsxMjAwNzY3NjtqOzE3MDY5OzIwNDg7MjAyNTszMDAw",
+            "profile":"https://resizing.flixster.com/n-3vHEjjaZtI8znlRzh49UckPdw=/54x80/v1.bTsxMjAwNzY3NjtqOzE3MDY5OzIwNDg7MjAyNTszMDAw",
+            "detailed":"https://resizing.flixster.com/n-3vHEjjaZtI8znlRzh49UckPdw=/54x80/v1.bTsxMjAwNzY3NjtqOzE3MDY5OzIwNDg7MjAyNTszMDAw",
+            "original":"https://resizing.flixster.com/n-3vHEjjaZtI8znlRzh49UckPdw=/54x80/v1.bTsxMjAwNzY3NjtqOzE3MDY5OzIwNDg7MjAyNTszMDAw"
+         },
+         "abridged_cast":[  
+            {  
+               "name":"Anna Gunn",
+               "id":"364610641",
+               "characters":[  
+                  "Naomi Bishop"
+               ]
+            },
+            {  
+               "name":"James Purefoy",
+               "id":"358182991",
+               "characters":[  
+                  "Michael Connor"
+               ]
+            },
+            {  
+               "name":"Sarah Megan Thomas",
+               "id":"770791861",
+               "characters":[  
+                  "Erin Manning"
+               ]
+            },
+            {  
+               "name":"Alysia Reiner",
+               "id":"748170240",
+               "characters":[  
+                  "Samantha"
+               ]
+            },
+            {  
+               "name":"Craig Bierko",
+               "id":"162694648",
+               "characters":[  
+                  "Benji Akers"
+               ]
+            }
+         ],
+         "links":{  
+            "self":"https://api.rottentomatoes.com/api/public/v1.0/movies/771435795.json",
+            "alternate":"https://www.rottentomatoes.com/m/equity/",
+            "cast":"https://api.rottentomatoes.com/api/public/v1.0/movies/771435795/cast.json",
+            "reviews":"https://api.rottentomatoes.com/api/public/v1.0/movies/771435795/reviews.json",
+            "similar":"https://api.rottentomatoes.com/api/public/v1.0/movies/771435795/similar.json"
+         }
+      },
+      {  
+         "id":"771400429",
+         "title":"Suicide Squad",
+         "year":2016,
+         "mpaa_rating":"PG-13",
+         "runtime":100,
+         "release_dates":{  
+            "theater":"2016-08-05"
+         },
+         "ratings":{  
+            "critics_score":-1,
+            "audience_score":99
+         },
+         "synopsis":"Director David Ayer (Fury) takes the helm for this Warner Bros. production adapted from the DC Comics series about a group of super-villains who are given a shot at redemption by embarking on a heroic mission that will most likely mean the death of them all. Dan Lin produces from a script by Justin Marks.",
+         "posters":{  
+            "thumbnail":"https://resizing.flixster.com/TJ4b-9w0IulKxCZHSQNT4TnVZmY=/54x80/v1.bTsxMjA2MTc4MTtqOzE3MDg1OzIwNDg7NjQ4Ozk2MA",
+            "profile":"https://resizing.flixster.com/TJ4b-9w0IulKxCZHSQNT4TnVZmY=/54x80/v1.bTsxMjA2MTc4MTtqOzE3MDg1OzIwNDg7NjQ4Ozk2MA",
+            "detailed":"https://resizing.flixster.com/TJ4b-9w0IulKxCZHSQNT4TnVZmY=/54x80/v1.bTsxMjA2MTc4MTtqOzE3MDg1OzIwNDg7NjQ4Ozk2MA",
+            "original":"https://resizing.flixster.com/TJ4b-9w0IulKxCZHSQNT4TnVZmY=/54x80/v1.bTsxMjA2MTc4MTtqOzE3MDg1OzIwNDg7NjQ4Ozk2MA"
+         },
+         "abridged_cast":[  
+            {  
+               "name":"Will Smith",
+               "id":"162659361",
+               "characters":[  
+                  "Floyd Lawton/Deadshot"
+               ]
+            },
+            {  
+               "name":"Margot Robbie",
+               "id":"770873485",
+               "characters":[  
+                  "Dr. Harleen F. Quinzel/Harley Quinn"
+               ]
+            },
+            {  
+               "name":"Jared Leto",
+               "id":"162653925",
+               "characters":[  
+                  "The Joker"
+               ]
+            },
+            {  
+               "name":"Jai Courtney",
+               "id":"771383833",
+               "characters":[  
+                  "Captain Boomerang"
+               ]
+            },
+            {  
+               "name":"Joel Kinnaman",
+               "id":"653490685",
+               "characters":[  
+                  "Rick Flagg"
+               ]
+            }
+         ],
+         "links":{  
+            "self":"https://api.rottentomatoes.com/api/public/v1.0/movies/771400429.json",
+            "alternate":"https://www.rottentomatoes.com/m/suicide_squad_2016/",
+            "cast":"https://api.rottentomatoes.com/api/public/v1.0/movies/771400429/cast.json",
+            "reviews":"https://api.rottentomatoes.com/api/public/v1.0/movies/771400429/reviews.json",
+            "similar":"https://api.rottentomatoes.com/api/public/v1.0/movies/771400429/similar.json"
+         }
+      },
+      {  
+         "id":"771418880",
+         "title":"Nine Lives",
+         "year":2016,
+         "mpaa_rating":"PG",
+         "runtime":87,
+         "release_dates":{  
+            "theater":"2016-08-05"
+         },
+         "ratings":{  
+            "critics_score":-1,
+            "audience_score":81
+         },
+         "synopsis":"Tom Brand (Kevin Spacey) is a daredevil billionaire at the top of his game. His eponymous company FireBrand is nearing completion on its greatest achievement to date - the tallest skyscraper in the northern hemisphere. But Tom's workaholic lifestyle has disconnected him from his family, particularly his beautiful wife Lara (Jennifer Garner) and his adoring daughter Rebecca (Malina Weissman). Rebecca's 11th birthday is here, and she wants the gift she wants every year, a cat. Tom hates cats, but he is without a gift and time is running out. His GPS directs him to a mystical pet store brimming with odd and exotic cats- where the store's eccentric owner- Felix Perkins (Christopher Walken), presents him with a majestic tomcat, named Mr. Fuzzypants. En route to his daughter's party, Tom has a terrible accident. When he regains consciousness he discovers that somehow, he has become trapped inside the body of the cat. Adopted by his own family, he begins to experience what life is truly like for the family pet, and as a cat, Tom begins to see his family and his life through a new and unexpected perspective. Meanwhile, his family adjusts to life with an odd and stubborn cat, and his son David (Robbie Amell), steps up in ways Tom never expected. If any hope exists of returning to his family as the husband and father they deserve, Tom will have to learn why he has been placed in this peculiar situation and the great lengths he must go to earn back his human existence.",
+         "posters":{  
+            "thumbnail":"https://resizing.flixster.com/t8nm7JbHLBLv83iL7F71CyPDtf8=/54x80/v1.bTsxMjA2MTc4MDtqOzE3MDg0OzIwNDg7OTAwOzEzMzM",
+            "profile":"https://resizing.flixster.com/t8nm7JbHLBLv83iL7F71CyPDtf8=/54x80/v1.bTsxMjA2MTc4MDtqOzE3MDg0OzIwNDg7OTAwOzEzMzM",
+            "detailed":"https://resizing.flixster.com/t8nm7JbHLBLv83iL7F71CyPDtf8=/54x80/v1.bTsxMjA2MTc4MDtqOzE3MDg0OzIwNDg7OTAwOzEzMzM",
+            "original":"https://resizing.flixster.com/t8nm7JbHLBLv83iL7F71CyPDtf8=/54x80/v1.bTsxMjA2MTc4MDtqOzE3MDg0OzIwNDg7OTAwOzEzMzM"
+         },
+         "abridged_cast":[  
+            {  
+               "name":"Kevin Spacey",
+               "id":"162657625"
+            },
+            {  
+               "name":"Jennifer Garner",
+               "id":"162660749"
+            },
+            {  
+               "name":"Christopher Walken",
+               "id":"162652837",
+               "characters":[  
+                  "Felix Grant"
+               ]
+            },
+            {  
+               "name":"Mark Consuelos",
+               "id":"162653205"
+            },
+            {  
+               "name":"Malina Weissman",
+               "id":"771499581",
+               "characters":[  
+                  "Rebecca"
+               ]
+            }
+         ],
+         "links":{  
+            "self":"https://api.rottentomatoes.com/api/public/v1.0/movies/771418880.json",
+            "alternate":"https://www.rottentomatoes.com/m/nine_lives_2016/",
+            "cast":"https://api.rottentomatoes.com/api/public/v1.0/movies/771418880/cast.json",
+            "reviews":"https://api.rottentomatoes.com/api/public/v1.0/movies/771418880/reviews.json",
+            "similar":"https://api.rottentomatoes.com/api/public/v1.0/movies/771418880/similar.json"
+         }
+      },
+      {  
+         "id":"771358323",
+         "title":"The Little Prince",
+         "year":2016,
+         "mpaa_rating":"PG",
+         "runtime":106,
+         "release_dates":{  
+            "theater":"2016-08-05"
+         },
+         "ratings":{  
+            "critics_rating":"Fresh",
+            "critics_score":95,
+            "audience_score":95
+         },
+         "synopsis":"Kung-fu Panda director Mark Osborne teams with producers Aton Soumache and Dimitri Rassam for this animated take on Antoine de Saint-Exupery's beloved novella about a pilot (voice of Jeff Bridges) who crash lands in the Sahara desert and encounters a mysterious young boy who claims to be an extraterrestrial prince. James Franco, Rachel McAdams, Marion Cotillard, Benicio Del Toro, and Paul Giamatti also lend their voices to this Onyx Films production. ~ Jason Buchanan, Rovi",
+         "posters":{  
+            "thumbnail":"https://resizing.flixster.com/vVNBVFPAO1nkRzDdMOBQ-x6Dozo=/54x80/v1.bTsxMTQ4Mzc0MTtqOzE3MTA4OzIwNDg7MjA3ODszMDgy",
+            "profile":"https://resizing.flixster.com/vVNBVFPAO1nkRzDdMOBQ-x6Dozo=/54x80/v1.bTsxMTQ4Mzc0MTtqOzE3MTA4OzIwNDg7MjA3ODszMDgy",
+            "detailed":"https://resizing.flixster.com/vVNBVFPAO1nkRzDdMOBQ-x6Dozo=/54x80/v1.bTsxMTQ4Mzc0MTtqOzE3MTA4OzIwNDg7MjA3ODszMDgy",
+            "original":"https://resizing.flixster.com/vVNBVFPAO1nkRzDdMOBQ-x6Dozo=/54x80/v1.bTsxMTQ4Mzc0MTtqOzE3MTA4OzIwNDg7MjA3ODszMDgy"
+         },
+         "abridged_cast":[  
+            {  
+               "name":"Rachel McAdams",
+               "id":"162652838",
+               "characters":[  
+                  "The Mother"
+               ]
+            },
+            {  
+               "name":"Mackenzie Foy",
+               "id":"771386849",
+               "characters":[  
+                  "The Little Girl"
+               ]
+            },
+            {  
+               "name":"Paul Rudd",
+               "id":"162653309",
+               "characters":[  
+                  "Mr. Prince"
+               ]
+            },
+            {  
+               "name":"James Franco",
+               "id":"162653202",
+               "characters":[  
+                  "The Fox"
+               ]
+            },
+            {  
+               "name":"Marion Cotillard",
+               "id":"162688286",
+               "characters":[  
+                  "The Rose"
+               ]
+            }
+         ],
+         "alternate_ids":{  
+            "imdb":"1754656"
+         },
+         "links":{  
+            "self":"https://api.rottentomatoes.com/api/public/v1.0/movies/771358323.json",
+            "alternate":"https://www.rottentomatoes.com/m/the_little_prince_2016/",
+            "cast":"https://api.rottentomatoes.com/api/public/v1.0/movies/771358323/cast.json",
+            "reviews":"https://api.rottentomatoes.com/api/public/v1.0/movies/771358323/reviews.json",
+            "similar":"https://api.rottentomatoes.com/api/public/v1.0/movies/771358323/similar.json"
+         }
+      },
+      {  
+         "id":"771435928",
+         "title":"Little Men",
+         "year":2016,
+         "mpaa_rating":"PG",
+         "runtime":85,
+         "release_dates":{  
+            "theater":"2016-08-05"
+         },
+         "ratings":{  
+            "critics_rating":"Fresh",
+            "critics_score":94,
+            "audience_score":86
+         },
+         "synopsis":"When 13-year-old Jake's (Theo Taplitz) grandfather dies, his family moves from Manhattan back into his father's old Brooklyn home. There, Jake befriends the charismatic Tony (Michael Barbieri), whose single mother Leonor (Paulina Garcia), a dressmaker from Chile, runs the shop downstairs. Soon, Jake's parents Brian (Greg Kinnear) and Kathy (Jennifer Ehle) -- one, a struggling actor, the other, a psychotherapist -- ask Leonor to sign a new, steeper lease on her store. For Leonor, the proposed new rent is untenable, and a feud ignites between the adults. At first, Jake and Tony don't seem to notice; the two boys, so different on the surface, begin to develop a formative kinship as they discover the pleasures of being young in Brooklyn. Jake aspires to be an artist, while Tony wants to be an actor, and they have dreams of going to the same prestigious arts high school together. But the children can't avoid the problems of their parents forever, and soon enough, the adult conflict intrudes upon the borders of their friendship.",
+         "posters":{  
+            "thumbnail":"https://resizing.flixster.com/X3huu6ed-DOyjGGhyLF-8ZIfARE=/54x80/v1.bTsxMTkyMjUyMTtqOzE3MDUzOzIwNDg7MTAwMDsxNDgx",
+            "profile":"https://resizing.flixster.com/X3huu6ed-DOyjGGhyLF-8ZIfARE=/54x80/v1.bTsxMTkyMjUyMTtqOzE3MDUzOzIwNDg7MTAwMDsxNDgx",
+            "detailed":"https://resizing.flixster.com/X3huu6ed-DOyjGGhyLF-8ZIfARE=/54x80/v1.bTsxMTkyMjUyMTtqOzE3MDUzOzIwNDg7MTAwMDsxNDgx",
+            "original":"https://resizing.flixster.com/X3huu6ed-DOyjGGhyLF-8ZIfARE=/54x80/v1.bTsxMTkyMjUyMTtqOzE3MDUzOzIwNDg7MTAwMDsxNDgx"
+         },
+         "abridged_cast":[  
+            {  
+               "name":"Greg Kinnear",
+               "id":"162652891",
+               "characters":[  
+                  "Brian Jardine"
+               ]
+            },
+            {  
+               "name":"Jennifer Ehle",
+               "id":"162924763",
+               "characters":[  
+                  "Kathy Jardine"
+               ]
+            },
+            {  
+               "name":"Paulina Garcia",
+               "id":"771421465",
+               "characters":[  
+                  "Leonor"
+               ]
+            },
+            {  
+               "name":"Theo Taplitz",
+               "id":"771792905"
+            },
+            {  
+               "name":"Michael Barbieri",
+               "id":"771792906"
+            }
+         ],
+         "links":{  
+            "self":"https://api.rottentomatoes.com/api/public/v1.0/movies/771435928.json",
+            "alternate":"https://www.rottentomatoes.com/m/little_men_2016/",
+            "cast":"https://api.rottentomatoes.com/api/public/v1.0/movies/771435928/cast.json",
+            "reviews":"https://api.rottentomatoes.com/api/public/v1.0/movies/771435928/reviews.json",
+            "similar":"https://api.rottentomatoes.com/api/public/v1.0/movies/771435928/similar.json"
+         }
+      }
+   ],
+   "links":{  
+      "self":"https://api.rottentomatoes.com/api/public/v1.0/lists/movies/upcoming.json?page_limit=16&country=us&page=1",
+      "alternate":"https://www.rottentomatoes.com/movie/upcoming"
+   },
+   "link_template":"//api.rottentomatoes.com/api/public/v1.0/lists/movies/upcoming.json?page_limit={results_per_page}&page={page_number}&country={country-code}"
+}
