@@ -28,14 +28,14 @@ angular.module('MovieTracker', [
     
     //ABSTRACT VIEW
     .state('app', {
-        url: '/',
+        url: '/app',
         abstract: true,
         templateUrl: 'views/header.html',
         controller: 'NavigationCtrl'
     })
 
     .state('app.about', {
-        url: 'about',
+        url: '/about',
         views: {
             'mainView': {
                 templateUrl: 'views/about/about.html'
@@ -46,7 +46,7 @@ angular.module('MovieTracker', [
     })
 
     .state('app.recomendedMovies', {
-        url: 'recomended/',
+        url: '/recomended',
         views: {
             'mainView': {
                 templateUrl: 'views/movie/movie-list-recomended.html',
@@ -57,7 +57,7 @@ angular.module('MovieTracker', [
     })
 
     .state('app.movies', {
-        url: 'movies/',
+        url: '/movies',
         views: {
             'mainView': {
                 templateUrl: 'views/movie/movie-list.html',
@@ -67,7 +67,6 @@ angular.module('MovieTracker', [
         menu: 'Movies'
     })
 
- 
 
     .state('app.movie', {
         url: 'movies/:movieId',
@@ -81,5 +80,5 @@ angular.module('MovieTracker', [
     })
     
     //Default Route
-    $urlRouterProvider.otherwise('/movies');
+    $urlRouterProvider.otherwise('app/movies');
 })
