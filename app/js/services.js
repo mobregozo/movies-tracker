@@ -2,13 +2,13 @@
 
 angular.module('MovieTracker.services')
 
-.factory('movieService', function($http) {
+.factory('movieService', function($http, config) {
     return {
         getMovies: function() {
-            return $http.get('data/movies.json');
+            return $http.get(config.apiUrl);
         },
-        getMovieProfile: function(link) {
-            return $http.get('http://api.rottentomatoes.com/api/public/v1.0/movies/'+link+'.json?apikey=9htuhtcb4ymusd73d4z6jxcj');
+        getMovieProfile: function(movieId) {
+            return $http.get(config.apiUrl+'/movies/'+movieId);
         }
     };
 })

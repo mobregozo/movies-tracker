@@ -3,7 +3,7 @@
 angular.module('MovieTracker.controllers')
 
 // Movies List Controller
-.controller('MovieListProfileCtrl', function($scope, movieService) {
+.controller('MovieListCtrl', function($scope, movieService) {
 
 	$scope.movieList = [];
 
@@ -50,5 +50,28 @@ angular.module('MovieTracker.controllers')
 
 })
 
+
+// Movies List Controller
+.controller('MoviesRecomendedCtrl', function($scope, movieService) {
+
+	$scope.movieList = [];
+
+
+	$scope.getMovies = function(){
+		var call = movieService.getMovies();
+		call.then(
+			function(payload){
+				$scope.movieList = payload.data;
+			}, 
+			function(){});
+	}
+
+
+    $scope.$on('$viewContentLoaded', function() {
+    	$scope.getMovies();
+    });
+
+
+})
 
 

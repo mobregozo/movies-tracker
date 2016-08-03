@@ -12,7 +12,7 @@ angular.module('MovieTracker', [
 ])
 
 .constant("config", {
-    apiURL: 'http://localhost:5001'
+    apiUrl: 'http://ec2-54-191-9-10.us-west-2.compute.amazonaws.com:3000'
 })
 
 .run(function($rootScope){
@@ -33,21 +33,7 @@ angular.module('MovieTracker', [
         templateUrl: 'views/header.html',
         controller: 'NavigationCtrl'
     })
-    
-    //HOME
-    .state('app.home', {
-        url: 'home',
-        views: {
-            'mainView': {
-                templateUrl: 'views/home/home.html',
-                controller: 'HomeCtrl'
-            }
-        },
-        menu: 'Home'
 
-    })
-
-    //HOME
     .state('app.about', {
         url: 'about',
         views: {
@@ -59,16 +45,29 @@ angular.module('MovieTracker', [
 
     })
 
+    .state('app.recomendedMovies', {
+        url: 'recomended/',
+        views: {
+            'mainView': {
+                templateUrl: 'views/movie/movie-list-recomended.html',
+                controller: 'MoviesRecomendedCtrl'
+            }
+        },
+        menu: 'Recomended'
+    })
+
     .state('app.movies', {
         url: 'movies/',
         views: {
             'mainView': {
                 templateUrl: 'views/movie/movie-list.html',
-                controller: 'MovieListProfileCtrl'
+                controller: 'MovieListCtrl'
             }
         },
         menu: 'Movies'
     })
+
+ 
 
     .state('app.movie', {
         url: 'movies/:movieId',

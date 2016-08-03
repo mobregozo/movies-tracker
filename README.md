@@ -15,5 +15,6 @@ Run the App Locally:
 
 - grunt 
 
+Deploy to heroku
 
-
+git push heroku master

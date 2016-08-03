@@ -1,5 +1,5 @@
 body {
-  padding-top: 80px;
+  padding-top: 50px;
   padding-bottom: 50px;
   position: relative;
   /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
@@ -17,20 +17,15 @@ body {
     background: rgba(0, 0, 0, 0.5);
     border-radius: 6px; }
 
-.navbar-fixed-top .nav {
-  padding: 15px 0; }
-
 .navbar-fixed-top .navbar-brand {
-  padding: 0 15px; }
+  padding: 8px 10px; }
+  .navbar-fixed-top .navbar-brand img {
+    height: 40px; }
 
 .navbar-fixed-top .navbar-nav {
   margin-left: 30px; }
   .navbar-fixed-top .navbar-nav li {
     margin-right: 15px; }
-    .navbar-fixed-top .navbar-nav li.active a {
-      box-shadow: 1px 1px 43px -1px rgba(255, 255, 255, 0.26);
-      border-radius: 7px;
-      background: transparent; }
 
 .container.main-view {
   color: black;
@@ -302,10 +297,6 @@ body {
   pointer-events: none;
   z-index: 1; }
 
-@media (min-width: 768px) {
-  .navbar-fixed-top .navbar-brand {
-    padding: 15px 0; } }
-
 @media (max-width: 768px) {
   body {
     padding-top: 50px;
@@ -329,5 +320,7 @@ body {
       margin-right: 10px;
       height: calc(100vh - 110px); }
     body .container .navbar-brand {
-      padding: 0;
-      height: 20px; } }
+      padding: 8px 10px; }
+    body .container .unicen-logo {
+      height: 21px;
+      padding: 0; } }
