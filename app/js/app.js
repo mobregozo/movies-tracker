@@ -81,5 +81,5 @@ angular.module('MovieTracker', [
     })
     
     //Default Route
-    $urlRouterProvider.otherwise('/home');
+    $urlRouterProvider.otherwise('/movies');
 })
