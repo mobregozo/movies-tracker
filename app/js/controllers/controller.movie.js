@@ -33,7 +33,7 @@ angular.module('MovieTracker.controllers')
 	$scope.movieData= {};
 
 	$scope.getMovieProfile = function(){
-		var call = movieService.getMovieProfile(771442750);
+		var call = movieService.getMovieProfile($stateParams.movieId);
 		call.then(
 			function(payload){
 				$scope.movieData = payload.data;

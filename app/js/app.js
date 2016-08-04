@@ -12,11 +12,11 @@ angular.module('MovieTracker', [
 ])
 
 .constant("config", {
-    apiUrl: 'http://ec2-54-191-9-10.us-west-2.compute.amazonaws.com:3000'
+    apiUrl: 'http://ec2-54-191-9-10.us-west-2.compute.amazonaws.com:8080/movie-tracker'
 })
 
-.run(function($rootScope){
-     //Save menu navigation
+.run(function($rootScope) {
+    //Save menu navigation
     $rootScope.$on('$stateChangeStart', function(e, toState, toParams, fromState, fromParams) {
         $rootScope.menuNavigation = toState.menu;
     });
@@ -25,9 +25,9 @@ angular.module('MovieTracker', [
 .config(function($stateProvider, $urlRouterProvider) {
 
     $stateProvider
-    
+
     //ABSTRACT VIEW
-    .state('app', {
+        .state('app', {
         url: '/app',
         abstract: true,
         templateUrl: 'views/header.html',
@@ -56,6 +56,17 @@ angular.module('MovieTracker', [
         menu: 'Recomended'
     })
 
+    .state('app.movie', {
+        url: '/movies/:movieId',
+        views: {
+            'mainView': {
+                templateUrl: 'views/movie/movie-profile.html',
+                controller: 'MovieProfileCtrl'
+            }
+        },
+        menu: 'Movies'
+    })
+
     .state('app.movies', {
         url: '/movies',
         views: {
@@ -68,17 +79,7 @@ angular.module('MovieTracker', [
     })
 
 
-    .state('app.movie', {
-        url: 'movies/:movieId',
-        views: {
-            'mainView': {
-                templateUrl: 'views/movie/movie-profile.html',
-                controller: 'MovieProfileCtrl'
-            }
-        },
-        menu: 'Movies'
-    })
-    
+
     //Default Route
     $urlRouterProvider.otherwise('app/movies');
 })

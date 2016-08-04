@@ -1,15 +1,15 @@
 <div class="page">
     <article>
         <div class="page-header movie">
-            <div class="item">
-                <img src="images/sample-elephants-2.jpg" alt="" title="Elephant's Dream">
+            <div class="item" ng-style="{'background': 'url(images/sample-elephants-2.jpg)'}">  
             </div>
-            <!-- end carousel -->
-            <h1>Elephants Dream</h1>
-            <p class="lead">Elephants Dream is the story of two strange characters exploring a capricious and seemingly infinite machine. </p>
+            <div class="content-info">
+                <h1 class="nomargin">{{movieData.fullTitle}}</h1>
+                <p class="lead nomargin">Elephants Dream is the story of two strange characters exploring a capricious and seemingly infinite machine. </p>
+            </div>
         </div>
         <!-- end page-header -->
-        <div class="row">
+        <div class="row nomargin content-info">
             <div class="col-md-3">
                 <ul class="list-unstyled post-meta">
                     <li><span class="fa fa-calendar"></span>Thu Apr 27, 1:15pm</li>

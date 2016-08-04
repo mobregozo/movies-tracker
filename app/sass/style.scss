@@ -43,6 +43,12 @@ body {
     }
 }
 
+.nomargin{
+    margin:0!important;
+}
+.nopadding{
+    padding:0!important;
+}
 .container {
     &.main-view {
         // background: rgba(255, 255, 255, 0.57);
@@ -179,35 +185,30 @@ body {
 }
 
 .page-header {
-    margin: -50px -50px 35px !important;
-    padding: 0 0 35px;
+    margin: 0 !important;
+    padding: 0 !important;
     overflow-y: hidden;
     border-bottom: 1px solid #e6e6e6;
-    &.movie{
+    .item{
         height: 300px;
+        background: url("images/sample-elephants-2.jpg");
+        background-position: center;
+        background-size: cover;
+        -webkit-border-radius: 4px 4px 0 0;
+        -moz-border-radius: 4px 4px 0 0;
+        border-radius: 4px 4px 0 0;
     }
 }
 
-.page-header img {
-    width: 100%;
-    height: auto;
-    -webkit-border-radius: 4px 4px 0 0;
-    -moz-border-radius: 4px 4px 0 0;
-    border-radius: 4px 4px 0 0;
-}
 
-.page-header h1 {
-    margin: 30px 50px 10px;
-}
+
 
 .page-header .lead {
-    margin: 0 50px;
     color: #9a9a9a;
 }
 
 .page article {
     margin: 0 0 30px;
-    padding: 50px 50px 30px;
     position: relative;
     background: #fff;
     -webkit-border-radius: 4px;
@@ -217,6 +218,10 @@ body {
     -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
     -o-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+}
+
+.content-info{
+    padding:20px;
 }
 
 .post-content img {
