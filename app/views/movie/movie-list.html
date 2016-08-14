@@ -1,29 +1,46 @@
 <div class="row">
     <div class="col-lg-12">
         <h2 class="h2">Available Movies</h2>
-        <div class="form-group">
-            <input type="text" class="form-control" placeholder="Search for a movie">
-        </div>
+        <form class="form-inline movie-filters">
+            <div class="form-group">
+                <label class="control-label">Search</label>
+                <input type="text" class="form-control" placeholder="Search for a movie" ng-model="filters.query">
+            </div>
+            <div class="form-group">
+                <label class="control-label">Order</label>
+                <select class="form-control" ng-options="option.name for option in filters.availableOptions track by $index" ng-model="filters.order"></select>
+            </div>
+        </form>
+    </div>
+    <div class="col-lg-12 clearfix">
         <div class="portfolio-wrapper isotope">
-            <div class="card film art isotope-item" ng-repeat="movie in movieList.movies">
-                <a class="thumb">
-                    <img ng-src="{{movie.posters.profile}}" alt="" title="">
-                    <span class="overlay"><span class="fa fa-search"></span></span>
-                </a>
-                <div class="card-body">
-                    <h2><a ui-sref="app.movie({movieId:100})">{{movie.title}}</a></h2>
-                    <p>{{movie.synopsis| limitTo :300 }}{{movie.synopsis.length>300?'...':''}}</p>
-                    <p><a href="portfolio-item.html">Read More</a></p>
+            <div class="movies-list" scrolly="loadMoreMovies()" style="overflow-y: auto; min-height: 1%;">
+                <div class="card film art isotope-item" ng-repeat="movie in movieList">
+                    <a class="thumb">
+                        <img ng-src="{{movie.posters.profile}}" alt="" title="">
+                        <span class="overlay"><span class="fa fa-search"></span></span>
+                    </a>
+                    <div class="card-body">
+                        <h3><a ui-sref="app.movie({movieId:movie.id})">{{movie.title}}</a></h3>
+                        <div><strong>Release Date:</strong> {{movie.releaseDate}}</div>
+                        <div><strong>Runtime:</strong> {{movie.runtime}} mins</div>
+                        <div><strong>Language:</strong> {{movie.language}}</div>
+                        <div><strong>Genres:</strong>
+                            <span ng-repeat="gen in movie.genres">
+                                {{gen}}<span ng-if="!$last">, </span>
+                            </span>
+                        </div>
+                    </div>
+                    <!-- end card-body -->
+                    <div class="card-footer">
+                        <ul class="list-inline filters">
+                            <li><a ng-href="http://www.imdb.com/title/{{movie.imdbId}}" target="_blank">IMDB</a></li>
+                            <li><a ui-sref="app.movie({movieId:movie.id})">+ INFO</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <!-- end card-body -->
-                <div class="card-footer">
-                    <ul class="list-inline filters">
-                        <li><a href="#none">Film</a></li>
-                        <li><a href="#none">Art</a></li>
-                    </ul>
-                </div>
-                <!-- end card-footer -->
             </div>
         </div>
     </div>
 </div>
+genres : ["Comedy", "Children", "Adventure", "Animation", "Fantasy"] id : 1 imdbId : "tt0114709" language : "English" overview : "A little boy named Andy loves to be in his room, playing with his toys, especially his doll named "Woody". But, what do the toys do when Andy is not with them, they come to life. Woody believes that he has life (as a toy) good. However, he must worry about Andy's family moving, and what Woody does not know is about Andy's birthday party. Woody does not realize that Andy's mother gave him an action figure known as Buzz Lightyear, who does not believe that he is a toy, and quickly becomes Andy's new favorite toy. Woody, who is now consumed with jealousy, tries to get rid of Buzz. Then, both Woody and Buzz are now lost. They must find a way to get back to Andy before he moves without them, but they will have to pass through a ruthless toy killer, Sid Phillips." popularity : null releaseDate : "1995" runtime : 81 tagline : null title : "Toy Story" voteCount : null

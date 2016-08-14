@@ -17,6 +17,19 @@ body {
     background: rgba(0, 0, 0, 0.5);
     border-radius: 6px; }
 
+.movie-filters {
+  margin-bottom: 20px; }
+
+.movies-list {
+  color: black;
+  border-radius: 6px;
+  clear: both;
+  padding: 15px;
+  margin: 0px auto;
+  position: relative;
+  overflow: auto;
+  height: calc(100vh - 217px); }
+
 .navbar-fixed-top .navbar-brand {
   padding: 8px 10px; }
   .navbar-fixed-top .navbar-brand img {
@@ -50,7 +63,7 @@ body {
   z-index: 2; }
 
 .card {
-  margin: 0 30px 30px 0;
+  margin: 0 15px 15px 0;
   width: 250px;
   display: block;
   float: left;
@@ -110,21 +123,7 @@ body {
 
 .card .card-body {
   padding: 10px 15px 15px;
-  height: 281px; }
-
-.card .card-body h2 {
-  margin: 0 0 3px;
-  height: 55px;
-  overflow: hidden;
-  font-size: 20px;
-  line-height: 1.4; }
-
-.card .card-body h2 a {
-  font-weight: 500; }
-
-.card .card-body p {
-  margin: 0;
-  font-size: 13px; }
+  height: 200px; }
 
 .card .card-body .post-meta {
   margin: 0 0 10px;
