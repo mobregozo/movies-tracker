@@ -3,12 +3,16 @@
         <h2 class="h2">Available Movies</h2>
         <form class="form-inline movie-filters">
             <div class="form-group">
-                <label class="control-label">Search</label>
-                <input type="text" class="form-control" placeholder="Search for a movie" ng-model="filters.query">
+                <label class="control-label">Search:</label>
+                <input type="text" class="form-control" placeholder="Search for a movie" ng-model="filters.query" ng-model-options="{ debounce: 1200 }">
             </div>
             <div class="form-group">
-                <label class="control-label">Order</label>
+                <label class="control-label">Order By:</label>
                 <select class="form-control" ng-options="option.name for option in filters.availableOptions track by $index" ng-model="filters.order"></select>
+            </div>
+            <div class="form-group">
+                <i class="fa fa-sort-amount-desc icon" aria-hidden="true" ng-click="filters.desc = true" ng-if="!filters.desc"></i>
+                <i class="fa fa-sort-amount-asc icon" aria-hidden="true" ng-click="filters.desc = false" ng-if="filters.desc"></i>
             </div>
         </form>
     </div>
@@ -35,12 +39,18 @@
                     <div class="card-footer">
                         <ul class="list-inline filters">
                             <li><a ng-href="http://www.imdb.com/title/{{movie.imdbId}}" target="_blank">IMDB</a></li>
+                            <li><a ng-href="https://twitter.com/search?q={{movie.name}}" target="_blank">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>Twitter</a></li>
                             <li><a ui-sref="app.movie({movieId:movie.id})">+ INFO</a></li>
                         </ul>
+                    </div>
+                </div>
+                <div class="row nomargin" ng-if="loadingMovies">
+                    <div class="text-center">
+                        <img src="images/spin.gif" class="spin">
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-genres : ["Comedy", "Children", "Adventure", "Animation", "Fantasy"] id : 1 imdbId : "tt0114709" language : "English" overview : "A little boy named Andy loves to be in his room, playing with his toys, especially his doll named "Woody". But, what do the toys do when Andy is not with them, they come to life. Woody believes that he has life (as a toy) good. However, he must worry about Andy's family moving, and what Woody does not know is about Andy's birthday party. Woody does not realize that Andy's mother gave him an action figure known as Buzz Lightyear, who does not believe that he is a toy, and quickly becomes Andy's new favorite toy. Woody, who is now consumed with jealousy, tries to get rid of Buzz. Then, both Woody and Buzz are now lost. They must find a way to get back to Andy before he moves without them, but they will have to pass through a ruthless toy killer, Sid Phillips." popularity : null releaseDate : "1995" runtime : 81 tagline : null title : "Toy Story" voteCount : null

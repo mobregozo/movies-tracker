@@ -5,7 +5,7 @@ angular.module('MovieTracker.services')
 .factory('movieService', function($http, config) {
 	return {
 		getMovies: function(page, size, query, order, desc) {
-			return $http.get(config.apiUrl + '/movies', {
+			return $http.get(config.apiUrl + '/movies/', {
 				params: {
 					page: page,
 					size: size,
@@ -16,7 +16,7 @@ angular.module('MovieTracker.services')
 			});
 		},
 		getMovieProfile: function(movieId) {
-			return $http.get(config.apiUrl + '/movie/' + movieId);
+			return $http.get(config.apiUrl + '/movie/' + movieId+'/');
 		}
 	};
 })

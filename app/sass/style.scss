@@ -21,10 +21,27 @@ body {
     }
 }
 
+.spin{
+    width: 90px;
+}
+
 //MOVIES
 
 .movie-filters{
     margin-bottom: 20px;
+    .control-label{
+        margin-right:10px;
+    }
+    .form-control{
+        margin-right:10px
+    }
+    .icon{
+        font-size: 25px;
+        &:hover{
+            font-weight: bold;
+            cursor: pointer;
+        }
+    }
 }
 .movies-list{
     color: black;

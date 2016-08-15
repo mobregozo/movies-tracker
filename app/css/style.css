@@ -17,8 +17,20 @@ body {
     background: rgba(0, 0, 0, 0.5);
     border-radius: 6px; }
 
+.spin {
+  width: 90px; }
+
 .movie-filters {
   margin-bottom: 20px; }
+  .movie-filters .control-label {
+    margin-right: 10px; }
+  .movie-filters .form-control {
+    margin-right: 10px; }
+  .movie-filters .icon {
+    font-size: 25px; }
+    .movie-filters .icon:hover {
+      font-weight: bold;
+      cursor: pointer; }
 
 .movies-list {
   color: black;
