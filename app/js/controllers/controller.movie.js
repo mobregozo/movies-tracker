@@ -59,11 +59,11 @@ angular.module('MovieTracker.controllers')
         }
     }
 
-	$scope.$watch('filters', function(newVal, oldVal) {
+	$scope.$watchCollection('filters', function(newVal, oldVal) {
 		if (!$scope.loadingMovies && newVal!= oldVal) {
-			$scope.filters.page= 0;
-		$scope.movieList = [];
-		$scope.getMovies();
+			$scope.filters.page = 0;
+			$scope.movieList = [];
+			$scope.getMovies();
         }
 		
 	}, true);
