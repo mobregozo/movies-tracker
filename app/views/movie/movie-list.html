@@ -8,7 +8,7 @@
             </div>
             <div class="form-group">
                 <label class="control-label">Order By:</label>
-                <select class="form-control" ng-options="option.name as option.label for option in filters.availableOptions track by $index" ng-model="filters.order"></select>
+                <select class="form-control" ng-options="option as option.label for option in filters.availableOptions track by option.id" ng-model="filters.order"></select>
             </div>
             <div class="form-group">
                 <i class="fa fa-sort-amount-desc icon" aria-hidden="true" ng-click="filters.desc = true" ng-if="!filters.desc"></i>

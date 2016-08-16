@@ -14,52 +14,71 @@ angular.module('MovieTracker.controllers')
 		query: '',
 		desc: false,
 		availableOptions: [{
-				label:'Id',
-				name: 'id'
-			}, {
-				label:'Title',
-				name: 'title'
-			}, {
-				label:'Imdb Id',
-				name: 'imdbId'
-			}, {
-				label:'Release Date',
-				name: 'releaseDate'
-			}, {
-				label:'Runtime',
-				name: 'runtime'
-			}, {
-				label:'Language',
-				name: 'language'
-			}, {
-				label:'Overview',
-				name: 'overview'
-			}, {
-				label:'Populariry',
-				name: 'popularity'
-			},{
-				label:'TagLine',
-				name: 'tagline'
-			},{
-				label:'Average',
-				name: 'average'
-			}, {
-				label:'Vote Count',
-				name: 'voteCoun'
-			}, {
-				label:'Genre',
-				name: 'genre'
-			}
-		],
-		order: 'title'
+			id:1,
+			label: 'Id',
+			name: 'id'
+		}, {
+			id:2,
+			label: 'Title',
+			name: 'title'
+		}, {
+			id:3,
+			label: 'Imdb Id',
+			name: 'imdbId'
+		}, {
+			id:4,
+			label: 'Release Date',
+			name: 'releaseDate'
+		}, {
+			id:5,
+			label: 'Runtime',
+			name: 'runtime'
+		}, {
+			id:6,
+			label: 'Language',
+			name: 'language'
+		}, {
+			id:7,
+			label: 'Overview',
+			name: 'overview'
+		}, {
+			id:8,
+			label: 'Populariry',
+			name: 'popularity'
+		}, {
+			id:9,
+			label: 'TagLine',
+			name: 'tagline'
+		}, {
+			id:10,
+			label: 'Average',
+			name: 'average'
+		}, {
+			id:11,
+			label: 'Vote Count',
+			name: 'voteCoun'
+		}, {
+			id:12,
+			label: 'Genre',
+			name: 'genre'
+		}],
+		order: {
+			id:2,
+			label: 'Title',
+			name: 'title'
+		}
 	}
-	
+
 	$scope.resetFilters = function() {
 		$scope.movieList = [];
 		$scope.filters.page = 0;
 		$scope.filters.query = '';
 		$scope.filters.desc = false;
-		$scope.filters.order = 'title';
+		$scope.filters.order = {
+			id:2,
+			label: 'Title',
+			name: 'title'
+		}
 	}
 
 	$scope.getMovies = function() {
@@ -68,7 +87,7 @@ angular.module('MovieTracker.controllers')
 			$scope.filters.page,
 			$scope.filters.size,
 			$scope.filters.query,
-			$scope.filters.order,
+			$scope.filters.order.name,
 			$scope.filters.desc);
 		call.then(
 			function(payload) {
