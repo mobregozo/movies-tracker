@@ -15,19 +15,56 @@ angular.module('MovieTracker.controllers')
 		orderBy: 'genre',
 		desc: false,
 		availableOptions: [{
-			name: 'genre'
-		}, {
-			name: 'year'
-		}, {
-			name: 'name'
-		}, {
-			name: 'release date'
-		}],
+				label:'Id',
+				name: 'id'
+			}, {
+				label:'Title',
+				name: 'title'
+			}, {
+				label:'Imdb Id',
+				name: 'imdbId'
+			}, {
+				label:'Release Date',
+				name: 'releaseDate'
+			}, {
+				label:'Runtime',
+				name: 'runtime'
+			}, {
+				label:'Language',
+				name: 'language'
+			}, {
+				label:'Overview',
+				name: 'overview'
+			}, {
+				label:'Populariry',
+				name: 'popularity'
+			},{
+				label:'TagLine',
+				name: 'tagline'
+			},{
+				label:'Average',
+				name: 'average'
+			}, {
+				label:'Vote Count',
+				name: 'voteCoun'
+			}
+		],
 		order: {
-			name: 'genre'
+			label:'',
+			name: 'title'
 		}
 	}
-
+	
+	$scope.resetFilters = function() {
+		$scope.movieList = [];
+		$scope.filters.page = 0;
+		$scope.filters.query = '';
+		$scope.filters.desc = false;
+		$scope.filters.order = {
+			label: '',
+			name: 'title'
+		}
+	}
 
 	$scope.getMovies = function() {
 		$scope.loadingMovies = true;
@@ -42,9 +79,9 @@ angular.module('MovieTracker.controllers')
 				$scope.movieList = $scope.movieList.concat(payload.data.movies);
 				$scope.avalaibleMovies = ($scope.movieList.length < $scope.filters.size) ? false : true;
 			},
-			function() {}).finally(function(){
-				$scope.loadingMovies = false;
-			})
+			function() {}).finally(function() {
+			$scope.loadingMovies = false;
+		})
 	}
 
 
@@ -53,19 +90,19 @@ angular.module('MovieTracker.controllers')
 	});
 
 	$scope.loadMoreMovies = function() {
-        if (!$scope.loadingMovies && $scope.avalaibleMovies) {
-            $scope.filters.page= $scope.filters.page+1;
-            $scope.getMovies();
-        }
-    }
+		if (!$scope.loadingMovies && $scope.avalaibleMovies) {
+			$scope.filters.page = $scope.filters.page + 1;
+			$scope.getMovies();
+		}
+	}
 
 	$scope.$watchCollection('filters', function(newVal, oldVal) {
-		if (!$scope.loadingMovies && newVal!= oldVal) {
+		if (!$scope.loadingMovies && newVal != oldVal) {
 			$scope.filters.page = 0;
 			$scope.movieList = [];
 			$scope.getMovies();
-        }
-		
+		}
+
 	}, true);
 
 

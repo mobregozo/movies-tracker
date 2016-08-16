@@ -31,6 +31,8 @@ body {
     .movie-filters .icon:hover {
       font-weight: bold;
       cursor: pointer; }
+  .movie-filters .btn {
+    margin-left: 20px; }
 
 .movies-list {
   color: black;
