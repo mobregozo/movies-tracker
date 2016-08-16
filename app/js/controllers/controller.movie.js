@@ -12,7 +12,6 @@ angular.module('MovieTracker.controllers')
 		page: 0,
 		size: 10,
 		query: '',
-		orderBy: 'genre',
 		desc: false,
 		availableOptions: [{
 				label:'Id',
@@ -47,6 +46,9 @@ angular.module('MovieTracker.controllers')
 			}, {
 				label:'Vote Count',
 				name: 'voteCoun'
+			}, {
+				label:'Genre',
+				name: 'genre'
 			}
 		],
 		order: {
