@@ -42,13 +42,13 @@
                     <div class="card-footer">
                         <ul class="list-inline filters">
                             <li><a ng-href="http://www.imdb.com/title/{{movie.imdbId}}" target="_blank">IMDB</a></li>
-                            <li><a ng-href="https://twitter.com/search?q={{movie.name}}" target="_blank">
+                            <li><a ng-href="https://twitter.com/search?q={{movie.title}}" target="_blank">
                                 <i class="fa fa-twitter" aria-hidden="true"></i>Twitter</a></li>
                             <li><a ui-sref="app.movie({movieId:movie.id})">+ INFO</a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="row nomargin" ng-if="loadingMovies">
+                <div class="row nomargin col-xs-12" ng-if="loadingMovies">
                     <div class="text-center">
                         <img src="images/spin.gif" class="spin">
                     </div>
