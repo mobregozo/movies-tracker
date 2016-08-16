@@ -51,10 +51,7 @@ angular.module('MovieTracker.controllers')
 				name: 'genre'
 			}
 		],
-		order: {
-			label:'',
-			name: 'title'
-		}
+		order: 'title'
 	}
 	
 	$scope.resetFilters = function() {
@@ -74,7 +71,7 @@ angular.module('MovieTracker.controllers')
 			$scope.filters.page,
 			$scope.filters.size,
 			$scope.filters.query,
-			$scope.filters.order.name,
+			$scope.filters.order,
 			$scope.filters.desc);
 		call.then(
 			function(payload) {
