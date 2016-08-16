@@ -59,9 +59,7 @@ angular.module('MovieTracker.controllers')
 		$scope.filters.page = 0;
 		$scope.filters.query = '';
 		$scope.filters.desc = false;
-		$scope.filters.order = {
-			label: '',
-			name: 'title'
+		$scope.filters.order = 'title';
 		}
 	}
 
