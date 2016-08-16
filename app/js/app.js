@@ -12,7 +12,7 @@ angular.module('MovieTracker', [
 ])
 
 .constant("config", {
-    apiUrl: 'https://ec2-54-191-9-10.us-west-2.compute.amazonaws.com:8443/movie-tracker/'
+    apiUrl: 'http://ec2-54-191-9-10.us-west-2.compute.amazonaws.com:8080/movie-tracker/'
     // apiUrl: '/api'
 })
 
@@ -23,7 +23,9 @@ angular.module('MovieTracker', [
     });
 })
 
-.config(function($stateProvider, $urlRouterProvider) {
+.config(function($stateProvider, $urlRouterProvider,$httpProvider) {
+    delete $httpProvider.defaults.headers.common['X-Requested-With'];
+    $httpProvider.defaults.withCredentials = true;
 
     $stateProvider
 
