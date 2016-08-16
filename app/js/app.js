@@ -12,7 +12,7 @@ angular.module('MovieTracker', [
 ])
 
 .constant("config", {
-    apiUrl: 'http://ec2-54-191-9-10.us-west-2.compute.amazonaws.com:8080/movie-tracker/'
+    apiUrl: '//ec2-54-191-9-10.us-west-2.compute.amazonaws.com:8080/movie-tracker/'
     // apiUrl: '/api'
 })
 
