@@ -60,7 +60,6 @@ angular.module('MovieTracker.controllers')
 		$scope.filters.query = '';
 		$scope.filters.desc = false;
 		$scope.filters.order = 'title';
-		}
 	}
 
 	$scope.getMovies = function() {
